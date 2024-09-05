@@ -560,6 +560,10 @@ body main .header .logo img {
 @media (max-width: 600px) {
   body main .header .logo img {
     width: 4rem;
+    margin-right: 0; /* Override the margin on mobile */
+  }
+  body main .header .small{
+    margin-right: 0 !important;
   }
 }
 
