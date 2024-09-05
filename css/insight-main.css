@@ -12631,18 +12631,15 @@ h2, h3 {
 
 }
 
-
-@media screen and (max-width: 767px) {
-  .uk-cover-object .full_small {
+@media screen and (max-width: 600px) {
+  .uk-cover-object .full_small, 
+  .uk-cover-object .full_small video {
     width: 100%;
     height: 100%;
-    object-fit: contain; 
-    object-position: center;
-
-		position: fixed;
-		right: 0;
-		bottom: 0;
-		min-width: 100%;
-		min-height: 100%;
+    object-fit: contain; /* Ensures no part of the video is cut off */
+    object-position: center; /* Centers the video */
+    position: relative; /* Remove 'fixed' to keep it within the layout */
+    top: 0;
+    left: 0;
   }
 }
