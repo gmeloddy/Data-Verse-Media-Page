@@ -6325,18 +6325,20 @@ h2, h3 {
 	.uk-cover {
 		background-color: none;
 		}
-	
-		.uk-cover-object {
-			width: auto;
-			height: auto;
-			min-width: 100%;
-			min-height: 100%;
-			max-width: none;
-			position: relative;
-			left: 50%;
-			top: 50%;
-			-webkit-transform: translate(-50%, -50%);
-			transform: translate(-50%, -50%)
-		}
-	
+	.hide_sm {
+		display: none;
 	}
+	
+	.uk-cover-object {
+		width: auto;
+		height: auto;
+		min-width: 100%;
+		min-height: 100%;
+		max-width: none;
+		position: relative;
+		left: 50%;
+		top: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%)
+	}
+}
