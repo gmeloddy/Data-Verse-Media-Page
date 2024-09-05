@@ -12634,11 +12634,11 @@ h2, h3 {
 @media screen and (max-width: 600px) {
   .uk-cover-object .full_small, 
   .uk-cover-object .full_small video {
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* Ensures no part of the video is cut off */
-    object-position: center; /* Centers the video */
-    position: relative; /* Remove 'fixed' to keep it within the layout */
+    width: 100vw;  /* Take up the full width of the viewport */
+    height: 100vh; /* Take up the full height of the viewport */
+    object-fit: contain; /* Ensures the video is fully visible without being cropped */
+    object-position: center; /* Keeps the video centered */
+    position: absolute; /* Make the video cover the background */
     top: 0;
     left: 0;
   }
