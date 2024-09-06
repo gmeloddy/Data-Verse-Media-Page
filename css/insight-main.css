@@ -12643,3 +12643,27 @@ h2, h3 {
     left: 0;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .uk-cover .mobile {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.uk-cover .desktop {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.uk-cover .mobile {
+		display: none;
+	}
+	.uk-cover .desktop {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
