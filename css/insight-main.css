@@ -12669,3 +12669,13 @@ h2, h3 {
 		object-fit: cover;
 	}
 }
+
+
+
+body header nav .sidebar {
+	z-index: 50;
+}
+
+body main {
+	position: static;
+}
