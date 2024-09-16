@@ -1219,6 +1219,7 @@ oltre 1600px 6  colonne */
 	  min-height: inherit;
 	  /* equal to footer height */
 	  margin-bottom: inherit;
+		background-color: black;
 	}
 	.page-wrap:after {
 	  content: none;

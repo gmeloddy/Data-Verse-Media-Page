@@ -12670,12 +12670,6 @@ h2, h3 {
 	}
 }
 
-
-
-body header nav .sidebar {
-	z-index: 50;
-}
-
 body main {
 	position: static;
 }
