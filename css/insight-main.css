@@ -5165,8 +5165,8 @@ transform:translateY(0)
 }
 .uk-text-truncate {
 	overflow: hidden;
-	text-overflow: ellipsis;
-	white-space: nowrap
+	/* text-overflow: ellipsis;
+	white-space: nowrap */
 }
 .uk-text-break {
 	word-wrap: break-word;
@@ -11489,10 +11489,13 @@ transform:translateY(0)
 .uk-text-nowrap {
 	white-space: nowrap
 }
+
+
 .uk-text-truncate {
 	overflow: hidden;
 	text-overflow: ellipsis;
-	white-space: nowrap
+	white-space: nowrap;
+	
 }
 .uk-text-break {
 	word-wrap: break-word;
