@@ -19,6 +19,32 @@
     <link rel="stylesheet" href="css/app.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .header-logo>a {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            justify-items: center;
+            font-weight: 900;
+        }
+
+        @media screen and (max-width: 768px) {
+            .header-logo>a {
+                display: flex;
+                align-items: center;
+                justify-items: center;
+            }
+            .vs-menu-wrapper .mobile-logo {
+                display: flex;
+                align-items: center;
+                padding: 10px;
+            }
+            .vs-menu-wrapper .mobile-logo img {
+                margin-left: 10px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -27,7 +53,9 @@
     </div>
     <div class="vs-menu-wrapper">
         <div class="vs-menu-area text-center"><button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo"><a href="index.html"><img src="images/logo.png" alt="Bizino"></a></div>
+            <div class="mobile-logo"><a href="index.html">
+                <img src="images/new/logo.png" alt="Bizino" style="width: 50px;"></a>
+            </div>
             <div class="vs-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children"><a href="index.html">Home</a>
@@ -79,9 +107,10 @@
                 <div class="container">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
-                            <div class="header-logo"><a href="index.html"><img src="images/new//logo.png"
+                            <div class="header-logo"><a href="index.html">
+                                <img src="images/new/logo.png"
                                 style="width: 80px;"
-                                alt="Bizino"></a>
+                                alt="Bizino">Dataverse Media</a>
                             </div>
                         </div>
                         <div class="col-auto col-xl text-xl-center">
