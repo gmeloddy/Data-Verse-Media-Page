@@ -107,7 +107,21 @@ body main .modal {
      height: 515px;
  } 
 
- /* The new styling */
+ div[class^="group-"]>.bg {
+  /* Styles for all elements with class names starting with "group-" */
+  overflow: hidden;
+  position: relative;
+}
+
+div[class^="group-"]>.bg > .blur {
+  opacity: 0.4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #001458;
+}
 
 
  @media  only screen and (max-width: 600px) {
@@ -346,7 +360,7 @@ $(document).ready(function(){
 
         <div class="group-3">
             <div class="bg">
-                <div></div>
+                <div class="blur"></div>
                 <img  src="./new/images/new/Section1.jpeg.jpg" style="object-fit: cover; height: 100%; width: 100%;"/>
             </div>
             <div>
@@ -369,7 +383,10 @@ $(document).ready(function(){
             </div>
         
         <div class="group-5" id="first">
-            <div class="bg"><img  src="./new/images/new/section4.jpg" style="object-fit: cover; height: 100%; width: 100%;"/></div>
+            <div class="bg">
+                <div class="blur"></div>
+                <img  src="./new/images/new/section4.jpg" style="object-fit: cover; height: 100%; width: 100%;"/>
+            </div>
             <div class="info">
                 <h1>
                     Harnessing
@@ -406,7 +423,7 @@ $(document).ready(function(){
         </div>
         <div class="group-6" id="second">
             <div class="bg">
-                <div></div>
+                <div class="blur"></div>
                 <img  src="./new/images/new/section2.jpeg.jpg" style="object-fit: cover; height: 100%; width: 100%;"/>
             </div>
             <div class="info">
