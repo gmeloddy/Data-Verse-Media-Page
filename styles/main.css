@@ -2118,7 +2118,7 @@ body main .group-13 .logo img {
 }
 
 body footer {
-  background-image: url("../assets/webP10.webp");
+  /* background-image: url("../assets/webP10.webp"); */
   padding: 0 1rem !important;
 }
 
@@ -2223,6 +2223,10 @@ body footer .upper-footer div:nth-child(2) span a {
   font-size: 0.5rem;
 }
 
+body footer {
+  background-color:#001458 !important;
+}
+
 body footer .lower-footer {
   margin: 0 auto !important;
   display: -webkit-box;
@@ -2238,6 +2242,7 @@ body footer .lower-footer {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 @media (min-width: 800px) {
