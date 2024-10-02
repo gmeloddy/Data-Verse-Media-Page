@@ -46,7 +46,7 @@ header.main__header a.navbar-brand img {
 header.main__header nav.sidenav {
   padding: 20px !important;
   position: fixed;
-  z-index: 1;
+  z-index: 50;
   top: 58px;
   right: 0px;
   width: 300px;
