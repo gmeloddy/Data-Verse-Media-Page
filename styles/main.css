@@ -2245,19 +2245,61 @@ body footer .lower-footer {
   width: 100%;
 }
 
+/* Social and Logo styling adapted */
+body footer .lower-footer .socials {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+body footer .lower-footer .socials .social-icons {
+  display: flex;
+  gap: 1rem;
+  margin: auto !important;
+}
+
+body footer .lower-footer .socials .social-icons a {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+body footer .lower-footer  p {
+  color: #ffffff;
+}
+/* Social and Logo styling adapted end */
+
 @media (min-width: 800px) {
   body footer .lower-footer {
     width: 90% !important;
   }
 }
 
-body footer .lower-footer .logo {
+body footer .lower-footer .socials .logo {
   padding: 1rem 0;
 }
 
-body footer .lower-footer .logo img {
+body footer .lower-footer .socials .logo img {
   width: 10rem;
 }
+
+/* Social and Logo styling adapted for mobile*/
+@media (max-width: 500px) {
+  body footer .lower-footer .socials .logo  {
+    width: 5rem;
+  }
+  body footer .lower-footer .socials {
+    gap: 1rem;
+  }
+  body footer .lower-footer .socials .social-icons a {
+    font-size: 1rem;
+  }
+  body footer .lower-footer  p {
+    font-size: 0.6rem !important;
+    margin: 0 !important;
+    padding: 0 0 0.5rem 0 !important;
+  }
+}
+/* Social and Logo styling adapted for mobile end */
 
 body footer .lower-footer .socials {
   padding: 1rem 0;
