@@ -2254,7 +2254,7 @@ body footer .lower-footer .socials {
 
 body footer .lower-footer .socials .social-icons {
   display: flex;
-  gap: 1rem;
+  gap: 4rem;
   margin: auto !important;
 }
 
@@ -2297,6 +2297,9 @@ body footer .lower-footer .socials .logo img {
     font-size: 0.6rem !important;
     margin: 0 !important;
     padding: 0 0 0.5rem 0 !important;
+  }
+  body footer .lower-footer .socials .social-icons {
+    gap: 1rem;
   }
 }
 /* Social and Logo styling adapted for mobile end */
