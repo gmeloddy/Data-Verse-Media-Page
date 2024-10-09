@@ -168,7 +168,7 @@ body .group-12 .info .link a {
   }
   body p {
     font-size: 1.5em !important;
-    line-height: 2rem !important;
+    /* line-height: 2rem !important; */
     font-family: "Metrischs";
     font-weight: lighter;
     overflow-y: hidden !important;

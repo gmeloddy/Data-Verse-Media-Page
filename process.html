@@ -53,6 +53,18 @@
     background-color: #000 !important;
     }
 
+    @media screen and (max-width: 768px) {
+        .padding {
+        padding-left: 30px;
+    }
+    }
+
+    @media screen and (min-width: 768px) {
+        .padding {
+        padding-left: 200px; 
+        padding-right: 200px;
+    }   
+    }
 </style>
 <script>
 $(document).ready(function(){
@@ -154,25 +166,25 @@ $(document).ready(function(){
 
     <main class="   ">
             
-<section class="end__thinking">
-        <div class="container">
+    <section class="end__thinking">
+        <div class="padding" style="max-width: 100%;">
 
             <div class="thinking__head">
-                <p class="h3" style="color: #fff">
+                <p class="h3" style="color: #fff; letter-spacing: 0.3rem;">
                     Never-ending Thinking
                 </p>
             </div>
 
             <div class="thinking__body">
-                <p class="never-ending">
+                <p class="never-ending" style="letter-spacing: 0.3rem;">
                     At Insight, we are not merely creative by default, we are creative by design.
                     We are thoroughored thinkers and this discipline is born out of a complusive need
                     to create only the very best work. When we create, we seek to break the box, to leave a mark.
                 </p>
             </div>
 
-            <div class="thinking__meta">
-                <p class="never-ending">
+            <div class="thinking__body" style="letter-spacing: 0.3rem; margin-top: -50px;">
+                <p class="" >
                     We are the mark of creativity.
                 </p>
             </div>
@@ -229,7 +241,7 @@ $(document).ready(function(){
 
 
     <section class="how__we__create">
-        <div class="container">
+        <div class="padding">
 
             <div class="create__head">
                 <p class="h3">
