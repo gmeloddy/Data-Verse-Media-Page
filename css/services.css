@@ -33,7 +33,7 @@ div.services .service-item {
   gap: 20px;
   border: 1px solid #e0e0e0;
   padding: 1.5rem;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 div.services .service-item .service-body > h3 {
@@ -81,7 +81,7 @@ div.services .service-item .service-body p.service-text {
   }
 
   div.services .service-item .service-body > h3 {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
     color: #1e2b56 !important;
     line-height: 0.5rem;
     padding: 10px 0;
@@ -90,7 +90,7 @@ div.services .service-item .service-body p.service-text {
   
   div.services .service-item .service-body p.service-text {
     color: #1e2b56;
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
   }
 }
 
