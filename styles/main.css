@@ -1257,7 +1257,7 @@ body main .group-5 {
 
 body main .group-5 .bg {
   width: 100%;
-  background-image: url("../assets/webP2.webp");
+  background-image: url("../images/data_collect.jpg");
   height: 100vh !important;
   background-position: center center;
   background-size: fill;
@@ -1344,7 +1344,7 @@ body main .group-6 {
 
 body main .group-6 .bg {
   width: 100%;
-  background-image: url("../assets/webP22.webp");
+  background-image: url("../images/group-6.jpg");
   height: 100vh !important;
   background-position: center center;
   background-size: fill;
@@ -1425,7 +1425,7 @@ body main .group-7 {
 
 body main .group-7 .bg {
   width: 100%;
-  background-image: url("../assets/webP7.webp");
+  background-image: url("../images/Accelerating.jpg");
   height: 100vh !important;
   background-position: center 0;
   background-size: fill;
@@ -1800,7 +1800,7 @@ body main .group-11 {
 }
 
 body main .group-11 .bg {
-  background-image: url("../assets/webP.webp");
+  background-image: url("../images/Accelerating.jpg");
   width: 100%;
   height: 100vh !important;
   background-position: center center;
@@ -1808,6 +1808,17 @@ body main .group-11 .bg {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+body main .group-11 .bg .blur {
+  opacity: 0.4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #010101;
+}
+
 
 body main .group-11 .info {
   width: 70%;
