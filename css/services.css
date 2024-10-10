@@ -91,6 +91,7 @@ div.services .service-item .service-body p.service-text {
   div.services .service-item .service-body p.service-text {
     color: #1e2b56;
     font-size: 1.1rem !important;
+    text-wrap: wrap;
   }
 }
 
