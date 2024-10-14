@@ -15,7 +15,7 @@ main div.services .row {
 }
 
 main div.services .service-item .service-image > img {
-  width: 80px !important;
+  width: 80px;
 }
 
 main div.services .service-item:hover {
